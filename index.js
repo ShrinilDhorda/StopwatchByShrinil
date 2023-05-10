@@ -65,7 +65,6 @@ startStop.addEventListener('click', () => {
 });
 reset.addEventListener('click', () => {
 
-    console.log(timerstatus);
     if (timerstatus === 'started') {
         window.clearInterval(timeInt)
         sec = 0

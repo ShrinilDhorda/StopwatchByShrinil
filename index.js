@@ -3,7 +3,6 @@
 const startStop = document.getElementById("play");
 const reset = document.getElementById("reset");
 const vid = document.getElementById('vid');
-// vid.playbackRate = 0.35;
 // variables for time values
 let sec = 0;
 let min = 0;

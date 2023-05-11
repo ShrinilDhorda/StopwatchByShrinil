@@ -72,7 +72,7 @@ reset.addEventListener('click', () => {
         hrs = 0
         document.getElementById("timer").innerText = '00:00:00'
         timeInt = window.setInterval(stopwatch, 1000);
-        vid.load();
+        vid.currentTime = 0;
         vid.play();
 
     }
@@ -82,7 +82,8 @@ reset.addEventListener('click', () => {
         min = 0
         hrs = 0
         document.getElementById("timer").innerText = '00:00:00'
-        vid.load();
+        vid.currentTime = 0;
+        vid.pause();
     }
 
 })
